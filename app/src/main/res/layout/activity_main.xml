@@ -10,8 +10,8 @@
 
     <LinearLayout
             android:orientation="vertical"
-            android:layout_width="391dp"
-            android:layout_height="688dp" tools:layout_editor_absoluteY="31dp" tools:layout_editor_absoluteX="10dp">
+            android:layout_width="411dp"
+            android:layout_height="735dp" tools:layout_editor_absoluteY="-2dp" tools:layout_editor_absoluteX="-2dp">
         <Space
                 android:layout_width="match_parent"
                 android:layout_height="32dp"/>
@@ -33,7 +33,7 @@
         <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="272dp"
-                android:layout_height="253dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
         >
             <Button

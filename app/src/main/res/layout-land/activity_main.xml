@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#B8F5C9">
+
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp"/>
+    <TextView
+            android:text="Добро пожаловать в MFApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:textAlignment="center"
+            android:textColor="#1B5E20" android:textStyle="bold" android:textSize="18sp"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="147dp" app:srcCompat="@drawable/psy_green" android:id="@+id/imageView2"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="39dp"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="125dp" android:layout_weight="wrap_content">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="61dp">
+            <Button
+                    android:text="Эмоции"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button2" android:layout_weight="wrap_content" android:layout_width="50"/>
+            <Button
+                    android:text="Желания"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button3"/>
+            <Button
+                    android:text="Страхи"
+                    android:layout_width="221dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button4"/>
+        </LinearLayout>
+        <Button
+                android:text="Инструкции"
+                android:layout_width="250"
+                android:layout_height="wrap_content"
+                android:id="@+id/button5"
+                android:textColor="#1B5E20"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+        />
+    </LinearLayout>

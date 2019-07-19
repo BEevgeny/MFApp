@@ -10,6 +10,6 @@
             android:layout_marginEnd="130dp" android:layout_marginTop="578dp" android:layout_alignParentTop="true"
             android:layout_alignParentStart="true" android:layout_marginStart="139dp"/>
     <ListView
-            android:layout_width="182dp"
-            android:layout_height="526dp"/>
+            android:layout_width="211dp"
+            android:layout_height="528dp"/>
 </RelativeLayout>

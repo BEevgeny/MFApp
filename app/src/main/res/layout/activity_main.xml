@@ -42,11 +42,12 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/buttonemotion"/>
 
+
             <Button
                     android:text="Желания"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button3"/>
+                    android:id="@+id/buttonwont"/>
             <Button
                     android:text="Страхи"
                     android:layout_width="match_parent"

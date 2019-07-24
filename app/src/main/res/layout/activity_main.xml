@@ -40,26 +40,29 @@
                     android:text="Эмоции"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/buttonemotion"/>
-
+                    android:id="@+id/buttonemotion"
+            />
 
             <Button
                     android:text="Желания"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/buttonwont"/>
+                    android:id="@+id/buttonwont"
+            />
             <Button
                     android:text="Страхи"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button4"/>
+                    android:id="@+id/buttonfear"
+            />
             <Button
                     android:text="Инструкции"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/button5"
                     android:textColor="#1B5E20"
-                    android:textStyle="italic"/>
+                    android:textStyle="italic"
+            />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

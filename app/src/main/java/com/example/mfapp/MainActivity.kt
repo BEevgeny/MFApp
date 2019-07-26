@@ -11,7 +11,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         buttonemotion.setText("My new button")
-        buttonemotion.setEnabled(false);
+//        buttonemotion.setEnabled(false);
+
+//        buttonemotion.setOnClickListener {
+//            startActivity(R.layout.emotion_main)
+//            }
+
+
+
 
     }
 }
